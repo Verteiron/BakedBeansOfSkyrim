@@ -257,12 +257,12 @@ EndState
 State CFG_Jumping
 
 	Event OnSelectST()
-		vBBS_GasShoutEnabled.SetValue((!((vBBS_GasShoutEnabled.GetValue() as Int) as Bool)) as Int)
+		vBBS_EnableJumping.SetValue((!((vBBS_EnableJumping.GetValue() as Int) as Bool)) as Int)
 		ForcePageReset()
 	EndEvent
 
 	Event OnDefaultST()
-		vBBS_GasShoutEnabled.SetValue(1)
+		vBBS_EnableJumping.SetValue(1)
 		ForcePageReset()
 	EndEvent
 
