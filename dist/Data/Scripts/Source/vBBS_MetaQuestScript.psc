@@ -109,7 +109,7 @@ EndFunction
 
 Function DoUpkeep(Bool DelayedStart = True)
 	;FIXME: CHANGE THIS WHEN UPDATING!
-	_CurrentVersion = 108
+	_CurrentVersion = 109
 	String sErrorMessage
 	If DelayedStart
 		Wait(RandomFloat(2,4))
@@ -205,6 +205,10 @@ Function DoUpgrade()
 			vBBS_GasTrackingQuest.Start()
 		EndIf
 		ModVersion = 108
+	EndIf
+	If ModVersion < 109
+		Debug.Trace("BBS: Upgrading to version 1.09")
+		ModVersion = 109
 	EndIf
 	_Running = True
 	Debug.Trace("BBS: Upgrade complete!")

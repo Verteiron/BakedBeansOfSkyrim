@@ -58,6 +58,16 @@ event OnGameReload()
     parent.OnGameReload()
 endEvent
 
+Int Function GetVersion()
+    return 2
+EndFunction
+
+Event OnVersionUpdate(int a_version)
+	If CurrentVersion < 2
+		OnConfigInit()
+	EndIf
+EndEvent
+
 event OnPageReset(string a_page)
 	UpdateSettings()
 	Int OptionFlags = 0

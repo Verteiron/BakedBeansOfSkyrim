@@ -13,6 +13,11 @@ In their eco-friendly jars, it's easy to pick up as many beans as you need.  The
 
 [b]Extra special thanks to [url=http://www.nexusmods.com/games/users/372449/?]memlapse[/url], who has gone to great, nay, [i]absurd[/i] trouble (and saved me a great deal of time) testing this mod for me! Click on his name and give that guy some Kudos![/b]
 
+[b]Version 1.09[/b] "A bugfix!"
+[list]
+[*]Fixed a bug that caused the "Jumping relieves pressure" checkbox to not work properly. Thanks to maskedmadnessq for reporting this one.
+[/list]
+
 [b]Version 1.08[/b] "Not the features you need, but the features you deserve."
 [list]
 [*]Added Bean Chili, a fearsome combination of Baked Beans, Beef, Mammoth Cheese and Cabbage. Eating it will instantly max out your gas level, as well as granting access to...

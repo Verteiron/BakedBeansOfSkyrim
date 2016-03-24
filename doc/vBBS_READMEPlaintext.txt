@@ -13,6 +13,9 @@ Updates
 
 Extra special thanks to memlapse, who has gone to great, nay, absurd trouble (and saved me a great deal of time) testing this mod for me! Click on his name and give that guy some Kudos!
 
+Version 1.09 "A bugfix!"
+Fixed a bug that caused the "Jumping relieves pressure" checkbox to not work properly. Thanks to maskedmadnessq for reporting this one.
+
 Version 1.08 "Not the features you need, but the features you deserve."
 
 Added Bean Chili, a fearsome combination of Baked Beans, Beef, Mammoth Cheese and Cabbage. Eating it will instantly max out your gas level, as well as granting access to...
